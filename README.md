@@ -1,7 +1,16 @@
 # Neighborly
 
+## Meet the Team
+[Amanda Hamilton](https://github.com/polysnacktyl)
+
+[Dawan Sawyer](https://github.com/Sawyer0)
+
+[Matt Ward](https://github.com/mattrward1030)
+
+[Tonya Fletcher](https://github.com/tfletch3018)
+
 ## Description
-This application is a full MERN stack application, what that means is it uses a combination of MongoDb for the database, Express for the server and middleware functionality, React to handle the view that the user sees on the front end and last but not least Node, which enables us to do Javascript tasks more easily inside VS Code. This abides by the MVC paradigm of model, view, controller, and that is exactly what a MERN stack is able to give you. Neighborly was no easy application to build, especially for us first time MERN stack developers. This was a mammoth undertaking and one that required a lot of patience and skill to accomplish. React enables us to pass in different components into the views so that they are more reusuable for future development and also moduralizes the code so you can seperate concerns more easily. For this application there is a total of 19 components and 19 views which play just a small part in making react work, that isn't counting all the routes and models that go into it as well. One of the biggest features that really pulled the whole app together was the use of Auth0. This is where we ran into our biggest challenges and successes as a team. Auth0 is used to securely authenticate users, and while doing this we were then able to keep track of what users were logged in at a given time. That allowed us to be able to have user specific profiles for each user and at the same time allowing them to view the community dashboard which pulled the info from all users to display them dynamically after a single user had entered the info. This all came together to make a mutual aid application, with a template style design, that can be implemented to any city or community across the country so that neighbors can help eachother out in times of need and more easily share resources and ask for help.
+This is a full MERN stack application, which means that it uses a combination of MongoDb for the database, Express for the server and middleware functionality, React to handle the view that the user sees on the front end and Node, which enables easier completion of Javascript tasks in VS Code. This abides by the MVC paradigm (model, view, controller) which is exactly what a MERN stack is able to provide. Neighborly was no easy application to build, especially for us first time MERN stack developers. This was a mammoth undertaking, one that required a great deal of patience and skill to accomplish. React enables us to pass different components into the views so that they are more reusuable for future development and also moduralizes the code so concerns may be separated more easily. For this application there are a total of 19 components and 19 views which play just a small part in React's overall functionality. A notable feature is Auth0, which is somewhat of glue that holds the app together figuratively. mastering this technology attributed to our biggest challenges and successes as a team. Auth0 is used to securely authenticate users, and in doing so, enables ana administrator to track which users were logged in at a given time. This allowed for the creation of user specific profiles, allowing them to view the community dashboard (which pulls the information from all users to be displayed dynamically after a single user has entered the information). The final product is a mutual aid application utilizing a template style design, that may be implemented in any city or community nationwide, enabling neighbors to assist one another during times of need, providing a platform to both request help and share resources.
 
 ## Installation
 To install this repo on your local drive you would have to clone the ssh key from my repo. Head into your local drive of choice in terminal or bash and do a git clone. Once you have done a git clone you are free to start working on this project. If you want to push your changes to my repo then you would have to head into terminal/bash and do a git add . Then a git commit -m explaning the changes made, and finally a git push to push the files onto the repo.
@@ -12,6 +21,7 @@ If you want to use this program on the front end then simply click on the link i
 
 ## Finished Project!
 [Check out the deployed application on Heroku](https://intense-beyond-20958.herokuapp.com/)
+
 [Watch the demo video](https://drive.google.com/file/d/1mgbvn__-zQ1R6NlPvMMYv4NBf61RpWWV/view?usp=sharing)
 
 <img src="client/src/images/homepage_screenshot.png" />
